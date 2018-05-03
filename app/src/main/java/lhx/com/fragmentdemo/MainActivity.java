@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.demo5:
                 startActivity(new Intent(MainActivity.this,Demo5Activity.class));
                 break;
+            case R.id.newsDemo:
+                startActivity(new Intent(MainActivity.this,NewsActivity.class));
         }
         return true;
     }
